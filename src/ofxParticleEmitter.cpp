@@ -29,6 +29,11 @@
 
 ofxParticleEmitter::ofxParticleEmitter()
 {
+    init();
+}
+
+void ofxParticleEmitter::init() 
+{
 	settings = NULL;
 	
 	emitterType = kParticleTypeGravity;

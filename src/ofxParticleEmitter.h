@@ -201,6 +201,8 @@ public:
 	
 protected:
 	
+    void    init();
+
 	void	parseParticleConfig();
 	void	setupArrays();
 	
