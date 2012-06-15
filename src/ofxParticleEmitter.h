@@ -154,7 +154,7 @@ static inline Vector2f Vector2fNormalize(Vector2f v) {
 	return Vector2fMultiply(v, 1.0f/Vector2fLength(v));
 }
 
-#define MAXIMUM_UPDATE_RATE 90.0f	// The maximum number of updates that occur per frame
+#define MAXIMUM_UPDATE_RATE 30.0f	// The maximum number of updates that occur per frame
 
 // ------------------------------------------------------------------------
 // ofxParticleEmitter
